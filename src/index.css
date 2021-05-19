@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +6,16 @@
 }
 body{
   padding: 20px;
+  background-color: lightgray;
 }
-main {
-  display: flex;
+main div {
+  /* display: flex;
 flex-direction: row;
+flex-wrap: wrap; */
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+
 }
 button {
   padding: 5px 20px;
@@ -18,6 +25,25 @@ button {
   border: 1px solid lightgrey;
   border-radius: 5px;
 }
-
-
-
+button :hover {
+  color: thistle;
+}
+h1, h3 {
+  font-family: 'Kanit', sans-serif;
+}
+img {
+  max-width: 100%;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+article img {
+  height: 180px;
+  width: 100%;
+}
+article {
+  padding: 20px;
+}
+/* Add a movie button */
+a button {
+  padding: 10px 40px;
+}
