@@ -85,7 +85,7 @@ function App() {
     <hr />
     {/* we are adding the the add movie button to make handlesubmit works. */}
     <Link to="/create">
-      <button>Add a movie</button>
+      <button><b>ADD A MOVIE</b></button>
     </Link>
     <main>
       <Switch>
